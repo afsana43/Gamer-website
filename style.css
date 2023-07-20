@@ -7,7 +7,7 @@ body{
 }
 /* header design start */
 header{
-    padding: 20px 240px;
+    padding: 30px 240px;
     background-color: #FFF;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
@@ -23,14 +23,12 @@ nav li{
     list-style: none;
     font-weight: 600;
     color: #435B66;
-    font-size: 1.2rem;
-    margin-right: 30px;
-    margin-top: 20px;
-   
+    font-size: 1.4rem;
+    margin-right: 35px;
+    margin-top: 18px;  
 }
 .logo{
-    display: flex;
-  
+    display: flex; 
 }
 .logo img{
     width: 70px;
@@ -38,9 +36,10 @@ nav li{
     margin-top: 15px;
 }
 .logo-title{
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 0px 20px;
-    font-size: 2.8rem;
+    font-size: 3rem;
+    font-weight: 800;
     color: #2a5019;
 }
 .gamer-G{
@@ -52,8 +51,7 @@ nav li{
 .follow{
     height: 60px ;
     width: 260px;
-   
-    border-radius: 5px;
+    border-radius: 15px;
     font-weight: 600;
     color: #435B66;
     border: none;
@@ -61,14 +59,11 @@ nav li{
 }
 .fa-youtube{
   color: red;
-   padding-left:20px;
-  
+   padding-left:20px;  
 } 
 .fa-tiktok{
     color: black;
     padding-left:20px;
-   
-
 }
 /* header design end */
 
@@ -77,23 +72,20 @@ nav li{
     max-width: 1440px;
     margin: 50px auto;
 } 
-
 .banner-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 70vh;
-    
+    height: 70vh;    
 }
 .banner-contant{
     margin-bottom: 90px;
 }
-
 .banner-sub-title{
-    color: #0B0223;
+    color: #000;
     font-size: 3rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 12px;
     margin-top: 30%;
 }
@@ -102,48 +94,38 @@ nav li{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Work Sans;
     font-size: 6rem;
     margin-bottom: 20px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    font-style: bold;
+    font-weight: 800;   
 }
 .banner-text{
     color: #435B66;
-    font-size: 1.5rem;
-    font-style: normal;
+    font-size: 1.4rem;
     font-weight: 600;
-    margin: 10px 0px;
-    line-height: normal;
+    margin: 10px 0px;   
 }
-.banner-btn{
-    padding: 20px 50px ;
+.banner-btn ,.banner-btn-2{
+    padding: 20px 35px ;
     border-radius: 25px;
     margin-top: 30px;
+    margin-right: 15px;
     border: none;
-    color: #000;
+    color: #FFF;
     font-weight: bold;
     font-size: 1.2rem;
-    background: linear-gradient(120deg, #fa7407 50%, #2a5019 50%);
+    background:#fa7407;
 }
-.banner-btn-2{
-    padding: 20px 50px ;
-    border-radius: 25px;
-    margin-top: 30px;
-    border: none;
-    color: #000;
-    font-size: 1.3rem;
-    margin-left: 15px;
-     font-weight: bold;
-    background: linear-gradient(120deg, #fa7407 50%,#2a5019 50% );
+.fa-circle-play,.fa-download ,.fa-user-group{
+    color:#fa7407 ;
+    margin-right: 10px;
 }
+/* banner section end */
 /* we are gamer section */
 .we-are-gamer{
     background-color: #FAF3F0;
     padding: 55px 0;
-    margin-top: 130px;
-    
+    margin-top: 130px;    
 }
 .gamer-container{
     display: flex;
@@ -152,7 +134,6 @@ nav li{
     margin-left: 240px ;
     margin-right: 240px ;
 }
-
 .gamer-title{
     background: linear-gradient(180deg, #fa7407 0%, #2a5019 100%);
     background-clip: text;
@@ -160,41 +141,37 @@ nav li{
     -webkit-text-fill-color: transparent;
     text-align: right;
     margin-top: 40px;
-    font-size: 3.2rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-size: 4rem;
+    font-style: bold;
+    font-weight: 600;
 }
 .gamer-desc{
     width: 520px;
     color: #534C64;
     text-align: right;
     margin-top: 25px;
-    font-size: 1.2rem;
-    font-style: normal;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 30px;  
 }
 .banner-btn-3{
-   margin-left: 61%;
+     margin-left: 61%;
     padding: 20px 50px ;
     border-radius: 25px;
     margin-top: 30px;
     border: none;
-    color: #000;
+    color: #FFF;
     font-weight: bold;
     font-size: 1.2rem;
-    background: linear-gradient(120deg, #fa7407 50%, #2a5019 50%);
+    background:#fa7407;
 }
 .gamer-sub-title{
     width: 520px;
     color: #534C64;
     text-align: right;
     margin-top: 30px;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 400;
-    
+    font-size: 1.5rem;
+    font-weight: 600;    
 }
 .gamer-sub-title-2{
     width: 520px;
@@ -202,11 +179,9 @@ nav li{
     text-align: right;
     margin-top: 15px;
     font-size: 2rem;
-    font-style: normal;
-    font-weight: 500;
-    
+    font-weight: 600;   
 }
-/* online game section */
+/* online game section  */
 .online-game{
     margin-top: 130px;
     text-align: center;
@@ -231,7 +206,6 @@ nav li{
    line-height: normal;
 }
 .online-game-sub-title{
-    
     color: #534C64;
     margin-top: 20px;
     font-size: 1.3rem;
@@ -251,11 +225,46 @@ nav li{
     line-height: normal;
     color:  #534C64;;
 }
-
+.overly{
+    position: absolute;
+    background: #fa7407;
+    opacity:0.5;
+    width:336px ;
+    height:394px ;
+    border-radius:15px ;
+    top: 0;
+    left:0 ;
+    visibility: hidden;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px ;
+    color:white;
+    font-weight: 800;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+.online-game-img{
+    cursor: pointer;
+    position: relative;
+}
+.online-game-img:hover .overly{
+visibility: visible;
+border: 4px solid red;
+}
+.fa-play{
+    color:black;
+    padding: 15px;
+    background-color: #d2cedd;
+    border-radius: 70%;
+    font-size: 2rem;
+}
 /* play instant section */
 .play-instant{
     margin-top: 160px;
-   margin-left: 240px;
+    margin-left: 240px;
     margin-right: 240px;
 }
 .play-instant-container{
@@ -268,8 +277,7 @@ nav li{
     height: 120px;
     margin-top: 10%;
     text-align: left;
-    margin-right: 10px;
-    
+    margin-right: 10px;   
 }
 .play-games-online{
     background: linear-gradient(180deg, #fa7407 0%, #2a5019 100%);
@@ -278,16 +286,13 @@ nav li{
     -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-size: 3.2rem;
-    font-style: normal;
-   line-height: 60px;
-
+    line-height: 60px;
 }
 .play-instant-title{
     color: #000;
     font-weight: 700;
     font-size: 3.2rem;
-    font-style: normal;
-   line-height: 60px;
+    line-height: 60px;
 }
 .play-instant-desc{
     width: 460px;
@@ -295,24 +300,18 @@ nav li{
     margin-top: 25px;
     margin-right: 20px;
     font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 500;
-  
+    font-weight: 500; 
 }
-
 .small-img{
-  
    position: relative;
    bottom: 110px;
    margin-left: 50%;
-
 }
 /* button section start */
 .btn-section{
     margin-left: 200px;
     margin-right: 200px;
 }
-
 .img-section{
     display: flex;
     align-items: center;
@@ -320,15 +319,13 @@ nav li{
     margin-left: 30px;
     gap: 40px;
 }
-
 .btn{
     width: 300px;
     height: 95px;
     border-radius: 40px;
     background-color: #FFF;
     display: flex;
-    border: none;
-   
+    border: none;  
 }
 .btn a{
     display: flex;
@@ -338,9 +335,7 @@ nav li{
     margin-top: 25px;
     margin-left: 10px;
     font-size: 1.2rem;
-    
 }
-
 .btn a:hover{
     color: #fa7407;
     border: 1px solid #fa7407;
@@ -349,10 +344,6 @@ nav li{
     height: 70px;
     gap: 20px;
 }
-
-
-
-
 /* footer section */
 footer{
     background-color: #FAF3F0;
@@ -360,21 +351,17 @@ footer{
     padding: 100px 0;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
+.fa-facebook,.fa-apple{
+font-size:2rem;
+}
 .fa-instagram{
-    font-size: 30px;
+    font-size:3rem;
+    color: #2a5019;
 }
-.fa-facebook{
-    font-size: 30px;
-}
-.fa-apple{
-    font-size: 30px;
-}
-
 .logo img{
     width: 70px;
     height: 40px;
-    margin-top: 15px;
-  
+    margin-top: 15px; 
 }
 .logo{
     color: #d2cedd;
@@ -382,24 +369,20 @@ footer{
     font-size: 2.9rem;
     display: flex;
     justify-content: center;
-    
 }
 .gamer-G{
     background: linear-gradient(180deg, #fa7407 0%, #2a5019 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
 }
 .footer-nav{
-
     padding: 5px 0;
     display: flex;
     justify-content: center;
 }
 .footer-nav ul li a{
    color: #000;
-
    text-decoration: none;
    font-size: 20px;
 }
@@ -410,7 +393,6 @@ footer{
 .footer-icon a{
     text-decoration: none;
     padding: 25px;
-   
     margin: 20px;
     border-radius: 50%;
 }
@@ -419,10 +401,6 @@ footer{
     color: #000;
     opacity: 0.9;
 }
-.footer-icon a:hover{
-    background-color: #534C64;
-    transition: 0.5s;
-}
 .footer-bottom{
     display: flex;
     justify-content: center;
@@ -430,31 +408,14 @@ footer{
     color: #000;
 }
 
-
-
 /* mobile rsponsive view */
 @media screen and ( max-width : 576px ){
     header{
        padding: 30px 90%;
     }
-    .banner-container{
+    .banner-container, .nav > ul {
         flex-direction: column-reverse;
     }
-    nav{
-        flex-direction: column;
-         
-    }
-    nav > ul {
-        flex-direction: column;
-        
-     
-    }
-    nav li{
-        
-        margin-left: 5rem;   
-       
-    }
-    
     .follow{
         height: 60px ;
         width: 250px;
@@ -462,8 +423,7 @@ footer{
         margin-right: 50px;
     }
     .banner-container{
-        flex-direction: column-reverse;
-        
+        flex-direction: column-reverse;   
     }
     .banner {
      margin-left: 30rem;
@@ -471,14 +431,12 @@ footer{
     }
     .gamer-container{
      flex-direction: column;
-     
     }
     .we-are-gamer{
         margin-bottom: 20rem;
     }
     .gamer-contant{
     margin-left: 30rem;
-     
     }
     .gamer-title,.gamer-sub-title-2 ,.gamer-sub-title{
         margin-left: 8rem;
@@ -487,7 +445,6 @@ footer{
         width: 700px;
     }
     .gamer-img{
-        
         margin-left: 30rem; 
     }
     .we-are-gamer{
@@ -495,7 +452,6 @@ footer{
     }
     .online-game-title{
         width: 30rem;
-        
     }
     .online-game-sub-title{
         width: 30rem; 
@@ -530,17 +486,13 @@ footer{
         margin-bottom: 15rem;
     }
     footer{
-        margin-left: 30rem;
+        margin-left:35rem;
     }
-    
-   
-    
 }
 /* tablet view */
 @media screen and ( min-width : 577px ) and (max-width :960px){
     header{
-        margin-left: 5rem;
-        
+        margin-left: 5rem;     
     }
     .banner-container{
       margin-left: 10rem;
@@ -563,9 +515,8 @@ footer{
     }
     .btn-section{
         margin-left: 50rem;
-      
     }
     footer{
-margin-right: -55rem;
+    margin-right: -55rem;
     }
 }
